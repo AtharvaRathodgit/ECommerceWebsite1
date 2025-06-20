@@ -1,5 +1,6 @@
 import stripOffers from "../dataFiles/homePageMainOffers"
 import { useState, useEffect } from "react";
+import BestofProducts from "./bestofProductBlock.jsx"
 
 
 function OfferDiv({offerData}){
@@ -100,7 +101,7 @@ function QuickLinksBlock() {
 
 function MissionStatement(){
     return(
-        <div className="w-full h-[25vh] flex justify-center items-center text-center bg-slate-100">
+        <div className="w-full h-[35vh] flex justify-center items-center text-center bg-slate-100">
             <h1
                 className="w-[60vw] font-bold text-2xl font-serif italic "
             >
@@ -110,12 +111,14 @@ function MissionStatement(){
     )
 }
 
+
 function HomePage(){
     return(
         <>
             <MainBlock />
             <QuickLinksBlock />
             <MissionStatement />
+            <BestofProducts />
         </>
     )
 }
