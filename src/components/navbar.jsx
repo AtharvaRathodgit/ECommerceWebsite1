@@ -38,20 +38,22 @@ function Nav(){
 
     return (
         <div className="w-full flex justify-center items-center h-[80px] bg-slate-200">
-            <div className="w-[1120px] flex flex-col justify-around h-full">
+            <div className="w-[1400px] flex flex-col justify-around h-full">
                 <div id="Block1" className="flex justify-between items-center">
                     <h1
-                        className="font-bold text-4xl font-serif italic inline"
+                        className="font-bold text-4xl font-serif italic"
                     >
                         Minimal
                     </h1>
+                    
+                    
 
                         <div 
                         id="Block2"
                         className="flex justify-center items-center"
                     >
                         <ul
-                            className="flex justify-around gap-4"
+                            className="flex justify-around gap-7"
                         >
                             <a href="#" className={navBarButtonClass}>Home</a>
                             <a href="#" className={navBarButtonClass}>Shop</a>
@@ -88,10 +90,12 @@ function Nav(){
 
 function Navbar(){
     return(
-        <div>
+        <>
             <OfferStrip />
-            <Nav />
-        </div>
+            <div className="sticky top-0 z-50">
+                <Nav />
+            </div>
+        </>
     )
 
 }

@@ -1,6 +1,7 @@
 import stripOffers from "../dataFiles/homePageMainOffers"
 import { useState, useEffect } from "react";
 import BestofProducts from "./bestofProductBlock.jsx"
+import TopProductsBlock from "./topProductsBlock.jsx"
 
 
 function OfferDiv({offerData}){
@@ -15,7 +16,7 @@ function OfferDiv({offerData}){
             {/* <div className="absolute inset-0 bg-black/50"></div> */}
 
             <div 
-                className="w-[1120px] flex flex-col justify-center h-full relative text-white"
+                className="w-[1400px] flex flex-col justify-center h-full relative text-white"
                 style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.3)', }}
             >
                 <h1
@@ -118,6 +119,7 @@ function HomePage(){
             <MainBlock />
             <QuickLinksBlock />
             <MissionStatement />
+            <TopProductsBlock />
             <BestofProducts />
         </>
     )

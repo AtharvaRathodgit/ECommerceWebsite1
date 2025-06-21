@@ -18,32 +18,29 @@ function Block_BestofProduct({data}){
     )
 }
 
-function Row_BestofProduct({category}) {
-    return(
-        <div
-            className="my-5 px-5"
-        >
-            <h1
-                className="text-2xl font-semibold"
-            >Best of {category}</h1>
+function Row_BestofProduct({ category }) {
+    const filteredProducts = Data_BestOfProducts.filter(
+        (item) => item.ProductSubCategory === category
+    );
 
-            <div
-                className="flex flex-row w-full overflow-hidden"
-            >
-                {Data_BestOfProducts.map((Data, index) => {
-                    if(Data.ProductSubCategory === category) {
-                        return <Block_BestofProduct data={Data} key={index}/>
-                    }
-                    else return null;
-                })}
+    return (
+        <div className="my-5 px-5 w-full">
+            <h1 className="text-2xl font-semibold mb-3">Best of {category}</h1>
+
+            <div className="w-full overflow-x-auto pb-2 scrollbar-hide overflow-y-hidden">
+                <div className="flex gap-4 min-w-max">
+                {filteredProducts.map((data, index) => (
+                    <Block_BestofProduct data={data} key={index} />
+                ))}
+                </div>
             </div>
         </div>
-    )
+    );
 }
 
 function BestofProducts(){
     return(
-        <div className="my-10">
+        <div className="my-10 w-full">
             {AvaliableCategories.map((category, index) => (
                 <Row_BestofProduct category={category} key={index} />
             ))}
