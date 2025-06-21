@@ -108,63 +108,63 @@ const Data_BestOfProducts = [
     "ProductCategory": "Power Supply (PSU)",
     "ProductSubCategory": "PC parts",
     "StartingFromPrice": 3499,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PowerSupplyPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "PC Cases",
     "ProductSubCategory": "PC parts",
     "StartingFromPrice": 2499,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PCCasesPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "CPU Coolers",
     "ProductSubCategory": "PC parts",
     "StartingFromPrice": 1499,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/CPUCoolersWebp.webp",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Optical Drives",
     "ProductSubCategory": "PC parts",
     "StartingFromPrice": 1299,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/OpticalDrivesPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Network Cards",
     "ProductSubCategory": "PC parts",
     "StartingFromPrice": 899,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/NetworkCardsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Keyboards",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 899,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/KeyboardsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Computer Mice",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 499,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/ComputerMicePng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Monitors",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 7999,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MonitorsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Printers",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 3999,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PrintersPng.png",
     "ProductCategoryLink" : ""
   },
   {
@@ -178,105 +178,105 @@ const Data_BestOfProducts = [
     "ProductCategory": "External Hard Drives",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 2999,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/ExternalHardDrivesPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "USB Hubs",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 799,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/USBHubsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Gaming Controllers",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 1999,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/GamingControllersPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Computer Speakers",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 1499,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/ComputerSpeakersPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Mouse Pads",
     "ProductSubCategory": "Computer Peripherals",
     "StartingFromPrice": 299,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MousePadsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Phone Cases",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 199,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PhoneCasesPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Screen Protectors",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 99,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/ScreenProtectorsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Phone Chargers",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 299,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PhoneChargersPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Wireless Chargers",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 899,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/WirelessChargersPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Phone Stands",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 149,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PhoneStandsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Car Phone Mounts",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 399,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/CarPhoneMountsPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Selfie Sticks",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 299,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/SelfieSticksPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Phone Ring Holders",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 99,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PhoneRingHoldersPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Mobile Camera Lenses",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 499,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobileCameraLensesPng.png",
     "ProductCategoryLink" : ""
   },
   {
     "ProductCategory": "Phone Cleaning Kits",
     "ProductSubCategory": "Mobile Accessories",
     "StartingFromPrice": 149,
-    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/MobilePng.png",
+    "ProductCategoryImageURL": "/src/imageFiles/ProductCategoryImages/PhoneCleaningKitsPng.png",
     "ProductCategoryLink" : ""
   }
 ]

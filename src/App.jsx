@@ -7,12 +7,14 @@ import './App.css'
 // 
 import Navbar from './components/navbar'
 import HomePage from './components/homePage'
+import Footer from './components/footer'
 
 function App() {
   return (
     <>
       <Navbar />
       <HomePage />
+      <Footer />
     </>
   )
 }
