@@ -24,7 +24,7 @@ function Row_BestofProduct({ category }) {
     );
 
     return (
-        <div className="my-5 px-5 w-full">
+        <div className="my-5 pl-5 w-full">
             <h1 className="text-2xl font-semibold mb-3">Best of {category}</h1>
 
             <div className="w-full overflow-x-auto pb-2 scrollbar-hide overflow-y-hidden">
@@ -40,10 +40,12 @@ function Row_BestofProduct({ category }) {
 
 function BestofProducts(){
     return(
-        <div className="my-10 w-full">
-            {AvaliableCategories.map((category, index) => (
-                <Row_BestofProduct category={category} key={index} />
-            ))}
+        <div className="my-15 w-full flex justify-center">
+            <div className="w-[1400px] overflow">
+                {AvaliableCategories.map((category, index) => (
+                    <Row_BestofProduct category={category} key={index} />
+                ))}
+            </div>
         </div>
     )
 }

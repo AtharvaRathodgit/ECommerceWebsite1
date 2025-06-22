@@ -28,7 +28,7 @@ function RenderTextBox({info}){
             
 
             <a
-                className="hover:bg-slate-900 h-[50px] w-[250px] hover:text-white text-black px-4 py-2 transition duration-100 text-base border border-slate-900 bg-white flex justify-center items-center"
+                className="hover:bg-slate-900 h-[50px] w-[250px] hover:text-white text-black px-4 py-2 transition duration-100 text-base border border-slate-900 bg-white flex justify-center items-center cursor-pointer"
             >
                 Learn More
             </a>

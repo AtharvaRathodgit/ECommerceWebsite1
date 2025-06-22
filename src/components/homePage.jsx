@@ -76,13 +76,23 @@ function QuickLinksBlock() {
             <div
                 className="w-[1120px] h-full flex justify-around items-center"
             >
-                <div id="mobiles" className="flex flex-col hover:scale-120 transition cursor-pointer">
-                    <a href="#" className="flex flex-row items-center transition">
+                <div
+                    id="mobiles"
+                    className="flex flex-col hover:scale-120 transition cursor-pointer"
+                >
+                    <a
+                        href="#"
+                        className="flex flex-row items-center transition"
+                    >
                         <img src="/src/imageFiles/MobilePng.png" alt="Mobiles" className="h-10 w-auto mb-1"/>
                         <h1 className="text-lg">Mobiles</h1>
                     </a>
                 </div>
-                <div id="laptops" className="flex flex-col hover:scale-120 transition cursor-pointer">
+
+                <div
+                    id="laptops"
+                    className="flex flex-col hover:scale-120 transition cursor-pointer"
+                >
                     <a href="#" className="flex flex-row items-center transition">
                         <img src="/src/imageFiles/LaptopPng.webp" alt="Laptops" className="h-10 w-auto mb-1"/>
                         <h1 className="text-lg">Laptops</h1>

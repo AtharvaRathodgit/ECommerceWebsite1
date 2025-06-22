@@ -72,7 +72,7 @@ function Nav(){
                             placeholder="Mobile, Laptop"
                         />
                         <button
-                            className="absolute right-1 top-1/2 -translate-y-1/2 px-2 py-0.5 flex items-center rounded text-center text-sm bg-slate-900 text-white hover:bg-slate-800 shadow-sm hover:shadow border border-transparent"
+                            className="absolute right-1 top-1/2 -translate-y-1/2 px-2 py-0.5 flex items-center rounded text-center text-sm bg-slate-900 text-white hover:bg-slate-800 shadow-sm hover:shadow-md border border-transparent cursor-pointer"
                             type="button"
                         >
                             Search
